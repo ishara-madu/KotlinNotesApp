@@ -26,7 +26,7 @@ class AddNoteActivity : AppCompatActivity() {
             val note = Note(0,title, content)
             db.insertNote(note)
             finish()
-            Toast.makeText(this,"You are added the note",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Note saved",Toast.LENGTH_SHORT).show()
         }
     }
 }
