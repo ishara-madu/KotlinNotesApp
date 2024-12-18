@@ -37,7 +37,7 @@ class UpdateNoteActivity : AppCompatActivity() {
 
             db.updateNote(Note(noteId,updatedTitle,updatedContent))
             finish()
-            Toast.makeText(this, "Updated", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Note updated", Toast.LENGTH_SHORT).show()
         }
 
 
